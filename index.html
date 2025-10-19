@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HopSnakeGame – Play Snake Online</title>
+  <meta name="description" content="HopSnakeGame – Fun HTML5 snake game online. Eat food, grow longer, beat high scores!">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <h1>🐍 HopSnakeGame</h1>
+    <button id="startBtn">Start Game</button>
+    <button id="highscoreBtn">Highscores</button>
+  </div>
+
+  <div id="gameContainer" class="hidden">
+    <canvas id="game" width="400" height="400"></canvas>
+    <p id="score">Score: 0</p>
+    <button id="backBtn">Back to Menu</button>
+  </div>
+
+  <div id="highscoresContainer" class="hidden">
+    <h2>Highscores</h2>
+    <ol id="highscoreList"></ol>
+    <button id="backFromHSBtn">Back to Menu</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
