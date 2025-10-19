@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0f0;
+  color: #000;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0c0;
+}
+
+canvas {
+  border: 3px solid #0f0;
+  background-color: #000;
+  display: block;
+  margin: 20px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#score {
+  font-size: 20px;
+  margin-top: 10px;
+}
